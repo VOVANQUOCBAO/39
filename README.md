@@ -1,30 +1,23 @@
-# Bài tập 39 — Đèn kéo quân
+﻿# Bài tập 39 — Đèn kéo quân
 
-Trang tĩnh HTML/CSS/JavaScript của **Võ Văn Quốc Bảo**, sẵn sàng để mở trực tiếp hoặc deploy lên Netlify.
+Trang web HTML/CSS/JavaScript của **Võ Văn Quốc Bảo** (MSSV **231a290036**), gồm hiệu ứng đèn kéo quân và phần kết quả Bài 38.
 
 ## Chạy trên máy
 
-Mở `index.html` bằng trình duyệt. Ảnh minh họa tải từ Unsplash nên cần Internet.
+Mở `index.html` bằng trình duyệt. Hình minh họa hiện tại dùng ảnh trực tuyến; cần kết nối Internet.
+
+## Ảnh kết quả
+
+Ảnh chụp màn hình trang có tên sinh viên và mã sinh viên: `assets/ket-qua-bai-39.png`.
+
+Ảnh kết quả Bài 38 do bạn cung cấp: `assets/bai-38-ket-qua.jpg`.
 
 ## Thay sáu ảnh bằng ảnh tự chụp
 
-Trong `index.html`, tìm sáu thẻ `<button class="lantern-face ...">`. Thay URL trong `src` và nội dung `alt` của từng thẻ bằng ảnh của bạn. Bạn cũng có thể đặt ảnh trong thư mục `assets` rồi dùng đường dẫn tương đối, ví dụ `assets/anh-01.jpg`. Thay đủ cả sáu ảnh minh họa trước khi nộp bài.
-
-## Kết quả Bài 38
-
-Ảnh kết quả Quizizz JavaScript do bạn cung cấp nằm ở `assets/bai-38-ket-qua.jpg` và hiển thị trên trang chủ. Source của Bài 38 chưa có trong repo.
-
-## Bổ sung mã sinh viên
-
-Mã sinh viên chưa xuất hiện trong các bài tập có sẵn. Khi có mã, cập nhật dòng `Chưa có trong repo` ở phần **Người thực hiện** trong `index.html`.
+Bài yêu cầu sáu ảnh do sinh viên tự chụp. Trong `index.html`, thay URL và `alt` của sáu thẻ `.lantern-face` bằng ảnh của bạn; có thể lưu ảnh trong `assets`, ví dụ `assets/anh-01.jpg`.
 
 ## Deploy lên Netlify
 
-Repo dùng để deploy: [github.com/VOVANQUOCBAO/39](https://github.com/VOVANQUOCBAO/39).
+Repo: [github.com/VOVANQUOCBAO/39](https://github.com/VOVANQUOCBAO/39).
 
-1. Trong Netlify, chọn **Add new site → Import an existing project**, kết nối GitHub và chọn repo `VOVANQUOCBAO/39`.
-2. Để trống build command; đặt publish directory là thư mục gốc (`.`).
-3. Chọn **Deploy site**. Mỗi lần cập nhật repo, Netlify sẽ deploy lại.
-
-Trang dùng HTML/CSS/JavaScript thuần, không cần build command.
-
+Trong Netlify chọn **Add new site → Import an existing project**, kết nối GitHub và chọn repo `VOVANQUOCBAO/39`. Để trống build command, đặt publish directory là `.` rồi chọn **Deploy site**.
